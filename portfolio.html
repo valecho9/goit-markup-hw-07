@@ -21,28 +21,34 @@
 
   <body>
     <header class="header">
-      <div class="header__container container ">
-        <a href="index.html" class="header__logo-link"
+      <div class="header__container container">
+        <a class="header__logo-link" href="index.html"
           >Web<span class="header__logo">Studio</span></a
         >
 
         <nav>
           <ul class="menu list">
-            <li><a class="menu__item" href="index.html" >Студія</a></li>
-            <li><a class="menu__item menu__item--active" href="portfolio.html" >Портфоліо</a></li>
-            <li><a class="menu__item" href="" >Контакти</a></li>
+            <li><a class="menu__item" href="index.html">Студія</a></li>
+            <li>
+              <a
+                class="menu__item menu__item--active"
+                href="portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li><a class="menu__item" href="">Контакти</a></li>
           </ul>
         </nav>
         <ul class="list nav">
           <li>
-            <a class="nav__link" href="mailto:info@devstudio.com" 
+            <a class="nav__link" href="mailto:info@devstudio.com"
               ><svg class="nav__icon" width="15" height="12">
                 <use href="images\icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="nav__link" href="tel:+380961111111" 
+            <a class="nav__link" href="tel:+380961111111"
               ><svg class="nav__icon" width="15" height="12">
                 <use href="images\icons.svg#smartphone"></use></svg
               >+380961111111</a
@@ -56,25 +62,35 @@
       <section class="section">
         <div class="container">
           <ul class="list items-btn">
-            <li><button type="button" class="btn">Усі</button></li>
-            <li><button type="button" class="btn">Веб-сайти</button></li>
-            <li><button type="button" class="btn">Додатки</button></li>
-            <li><button type="button" class="btn">Дизайн</button></li>
-            <li><button type="button" class="btn">Маркетинг</button></li>
+            <li>
+              <button type="button" class="items-btn__button">Усі</button>
+            </li>
+            <li>
+              <button type="button" class="items-btn__button">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button" class="items-btn__button">Додатки</button>
+            </li>
+            <li>
+              <button type="button" class="items-btn__button">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="items-btn__button">Маркетинг</button>
+            </li>
           </ul>
 
-          <ul class="list pagination">
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+          <ul class="list holder">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img11.jpg"
                     alt="відкритий ноутбук"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -82,23 +98,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Технокряк</h2>
-                  <p class="tagline">Веб-сайт</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Технокряк</h2>
+                  <p class="holder__tagline">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img22.jpg"
                     alt="два хлопця грають в баскетбол"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -106,23 +122,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Постер New Orlean vs Golden Star</h2>
-                  <p class="tagline">Дизайн</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Постер New Orlean vs Golden Star</h2>
+                  <p class="holder__tagline">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img33.jpg"
                     alt="емблема ресторана"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -130,23 +146,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Ресторан Seafood</h2>
-                  <p class="tagline">Додаток</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Ресторан Seafood</h2>
+                  <p class="holder__tagline">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img4.jpg"
                     alt="відкритий ноутбук"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -154,23 +170,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Технокряк</h2>
-                  <p class="tagline">Веб-сайт</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Технокряк</h2>
+                  <p class="holder__tagline">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img5.jpg"
                     alt="дві коробочки"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -178,23 +194,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Проєкт Boxes</h2>
-                  <p class="tagline">Додаток</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Проєкт Boxes</h2>
+                  <p class="holder__tagline">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img6.jpg"
                     alt="настільний компьютер"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -202,23 +218,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Inspiration has no Borders</h2>
-                  <p class="tagline">Веб-сайт</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Inspiration has no Borders</h2>
+                  <p class="holder__tagline">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img7.jpg"
                     alt="відкрита книга"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -226,23 +242,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Видання Limited Edition</h2>
-                  <p class="tagline">Дизайн</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Видання Limited Edition</h2>
+                  <p class="holder__tagline">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img8.jpg"
                     alt="бірка"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -250,23 +266,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Проєкт LAB</h2>
-                  <p class="tagline">Маркетинг</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Проєкт LAB</h2>
+                  <p class="holder__tagline">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="subtitle"
-                ><div class="inner">
+            <li class="holder__item">
+              <a href="" class="holder__subtitle"
+                ><div class="holder__inner">
                   <img
                     class="pic"
                     src="images/img9.jpg"
                     alt="набір тексту на ноутбуці"
                     width="370"
                   />
-                  <div class="product">
-                    <p class="desc">
+                  <div class="holder__product">
+                    <p class="holder__desc">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватн у
@@ -274,9 +290,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="list-aside">
-                  <h2 class="caption">Growing Business</h2>
-                  <p class="tagline">Додаток</p>
+                <div class="holder__list-aside">
+                  <h2 class="holder__caption">Growing Business</h2>
+                  <p class="holder__tagline">Додаток</p>
                 </div>
               </a>
             </li>
@@ -288,65 +304,64 @@
     <footer class="footer">
       <div class="container">
         <div>
-          <a href="index.html" class="footer__logo-link footer-logo"
-            >Web<span class="logo-footer">Studio</span></a
+          <a class="footer__logo-link" href="index.html"
+            >Web<span class="footer__logo">Studio</span></a
           >
-          <address class="contact-address">
-            <p class="contact-item">м. Київ, пр-т Лесі Українки, 26</p>
-            <a href="mailto:info@devstudio.com" class="contact"
+          <address class="footer__contact-address">
+            <p class="footer__address">м. Київ, пр-т Лесі Українки, 26</p>
+            <a class="footer__contact" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
-            <a href="tel:+380961111111" class="contact footer-contact"
+            <a href="tel:+380961111111" class="footer__contact footer-contact"
               >+380961111111</a
             >
           </address>
         </div>
-        <div class="footer-aside">
-          <p class="footer-subject">ПРИЄДНУЙТЕСЬ</p>
-          <ul class="social">
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="20" height="20">
+        <div class="footer__aside">
+          <p class="footer__subject">ПРИЄДНУЙТЕСЬ</p>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a href="" class="footer__social-link">
+                <svg class="footer__social-icon" width="20" height="20">
                   <use href="images\icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link" href="">
-                <svg class="social-icon" width="20" height="20">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
                   <use href="images\icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link" href="">
-                <svg class="social-icon" width="20" height="20">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
                   <use href="images\icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link" href="">
-                <svg class="social-icon" width="20" height="20">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="">
+                <svg class="footer__social-icon" width="20" height="20">
                   <use href="images\icons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="form-footer">
-          <p class="form-footer-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+        <div class="footer-box">
+          <p class="footer-box__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
           <form>
-            <label class="form-footer-label"></label>
             <input
-              class="form-footer-email"
+              class="footer-box__email"
               type="email"
               name="email"
               placeholder="E-mail"
             />
-            <button type="submit" class="form-footer-button">
-              <span class="form-footer-button-text"
-                >Підписатися<span class="form-button-icon">
+            <button type="submit" class="footer-box__button">
+              <span class="footer-box__button-text"
+                >Підписатися<span class="footer-box__button-icon">
                   <svg width="24" height="24">
                     <use href="./images/icons.svg#icon-send"></use></svg></span
               ></span>
