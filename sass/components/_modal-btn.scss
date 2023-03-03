@@ -164,11 +164,10 @@
   display: block;
   margin: 0 auto;
   cursor: pointer;
- &__button-text {
-  font-weight: 700;
-  color: var(--accent-color);
-  align-items: center;
-  text-align: center;
+  &__button-text {
+    font-weight: 700;
+    color: var(--accent-color);
+    align-items: center;
+    text-align: center;
+  }
 }
-}
-

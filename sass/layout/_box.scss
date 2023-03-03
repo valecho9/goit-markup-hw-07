@@ -1,11 +1,10 @@
 .box {
   width: 270px;
 
-&:not(:last-child) {
-  margin-right: 30px;
-}
-}
-  .box__icon {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__icon {
     display: flex;
     width: 270px;
     height: 120px;
@@ -14,15 +13,16 @@
     align-items: center;
     margin-bottom: 30px;
   }
-  .box__title {
+  &__title {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.1;
     margin-bottom: 10px;
   }
-  .box__text {
+  &__text {
     color: var(--main-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
   }
+}
