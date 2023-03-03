@@ -7,10 +7,9 @@
   .row {
     display: flex;
     justify-content: center;
-  }
-  
-  .row :not(:last-child) {
+     & :not(:last-child) {
     margin-right: 30px;
+  }
   }
   
   .items__logo {

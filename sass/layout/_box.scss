@@ -1,9 +1,10 @@
 .box {
-    width: 270px;
-  }
-  .box:not(:last-child) {
-    margin-right: 30px;
-  }
+  width: 270px;
+
+&:not(:last-child) {
+  margin-right: 30px;
+}
+}
   .box__icon {
     display: flex;
     width: 270px;
